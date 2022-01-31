@@ -90,7 +90,7 @@ namespace WpfApp8
             PortList.RemoveAt(0);
             foreach (Lotnisko Object in PortList)
             {
-                lotniska.Items.Add(Object.nazwa);  // wypisanie w textboxie nazw lotnisk
+                lotniska.Items.Add(Object.nazwa);  
             } 
 
         }
